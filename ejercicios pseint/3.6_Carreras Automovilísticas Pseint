@@ -1,0 +1,24 @@
+Algoritmo carreras_automovilísticas
+	
+	Definir menor_valor, tiempo_seg Como Entero
+	Definir vehículo, vehículo_con_menor_tiempo Como Caracter
+	
+	menor_valor = 99999
+	
+	Para i = 1 Hasta 3 Con Paso 1 Hacer
+		Imprimir "vehículo"
+		Leer vehículo 
+		
+		Imprimir "tiempo (segundos)"
+		Leer tiempo_seg
+		
+		Si tiempo_seg < menor_valor Entonces
+			menor_valor = tiempo_seg
+			vehículo_con_menor_tiempo = vehículo
+		FinSi
+		
+	Fin Para
+	
+	Imprimir "El vehículo con menor tiempo es: ", vehículo_con_menor_tiempo
+	Imprimir "su menor tiempo es: ", menor_valor
+FinAlgoritmo

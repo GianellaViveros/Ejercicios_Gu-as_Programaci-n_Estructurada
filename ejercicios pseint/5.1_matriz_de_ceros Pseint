@@ -1,0 +1,15 @@
+Algoritmo matriz_de_ceros
+	
+	Definir matriz_ceros Como Entero
+	Dimension matriz_ceros[4,4]
+	
+	//recorrer la matriz
+	
+	para i = 0 hasta 3 Hacer
+		para j = 0 hasta 3 Hacer
+			matriz_ceros[i,j] = 0
+			Imprimir matriz_ceros[i,j]
+		FinPara
+	FinPara
+	
+FinAlgoritmo
